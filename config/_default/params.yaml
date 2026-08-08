@@ -37,15 +37,15 @@ hugoblox:
     pack: "default"
     # Optional: Override theme pack colors
     colors:
-      primary: "" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
-      secondary: ""
+      primary: "#e58faa" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
+      secondary: "#f6bfd0"
       neutral: "" # Affects gray utilities (text-gray-*, bg-gray-*)
     # Optional: Mode-specific color overrides
     colors_light: {}
     colors_dark: {}
     # Optional: Semantic surface color overrides
     surfaces:
-      background: ""
+      background: "#fff4f7"
       foreground: ""
       header:
         background: ""
@@ -282,7 +282,7 @@ hugoblox:
     # Requires: HugoBlox Premium to support HugoBlox via alternative means
     # Note: Even with Premium, you can keep this false to support open source!
     # Get Premium: https://hugoblox.com/premium
-    hide_attribution: false
+    hide_attribution: true
 
     # Affiliate referral code for rewards program
     # Join affiliate program: https://hugoblox.com/affiliates

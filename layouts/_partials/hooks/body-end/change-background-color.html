@@ -1,24 +1,58 @@
-<script>
-  let bg = document.getElementById('page-bg');
-  bg.style.setProperty('will-change', 'filter', '');
-  let hue = 0;
+<style>
+  :root {
+    --avel-pink: #e58faa;
+    --avel-rose: #7d3f59;
+    --avel-card: rgba(255, 250, 252, 0.86);
+  }
 
-  // Dark mode support
-  let isDark = document.documentElement.classList.contains('dark');
-  document.addEventListener('hbThemeChange', (e) => {
-    console.debug('Theme changed - isDarkTheme? ' + e.detail.isDarkTheme());
-    isDark = e.detail.isDarkTheme();
-  });
+  body {
+    background: #ffdce7 !important;
+  }
 
-  setInterval(
-    function () {
-      hue = (hue + 1) % 360.;
+  #page-bg {
+    background-position: center;
+    background-size: cover;
+    opacity: 0.96;
+  }
 
-      if (isDark) {
-        bg.style.setProperty('filter', 'hue-rotate(' + hue + 'deg) invert(1) saturate(2)', '');
-      } else {
-        bg.style.setProperty('filter', 'hue-rotate(' + hue + 'deg)', '');
-      }
+  .page-header,
+  .page-footer {
+    background: transparent !important;
+  }
 
-    }, (5000 / 360.));
-</script>
+  .navbar-brand {
+    color: var(--avel-rose) !important;
+    font-weight: 700;
+  }
+
+  #section-cta-button-list a {
+    background: var(--avel-card) !important;
+    border: 1px solid rgba(229, 143, 170, 0.28);
+    border-radius: 999px !important;
+    box-shadow: 0 8px 24px rgba(155, 75, 105, 0.1);
+    color: var(--avel-rose) !important;
+    backdrop-filter: blur(7px);
+  }
+
+  #section-cta-button-list a:hover {
+    background: #fff !important;
+    border-color: rgba(229, 143, 170, 0.58);
+    box-shadow: 0 12px 30px rgba(155, 75, 105, 0.16);
+  }
+
+  #section-cta-button-list a:first-child {
+    background: linear-gradient(135deg, #fff 0%, #ffe8ef 100%) !important;
+    border-color: rgba(229, 143, 170, 0.62);
+    box-shadow: 0 10px 28px rgba(190, 76, 119, 0.2);
+  }
+
+  #section-cta-button-list a div,
+  #section-cta-button-list a svg {
+    color: var(--avel-rose) !important;
+  }
+
+  /* Hide any template-credit paragraph that remains in the module footer. */
+  .powered-by:has(a[data-hbx="poweredby_brand"]) {
+    display: none !important;
+  }
+</style>

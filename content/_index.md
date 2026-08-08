@@ -6,7 +6,7 @@ type: landing
 design:
   background:
     image:
-      filename: bg-hue.svg
+      filename: cute-pink-clouds-hearts.png
 
 sections:
   - block: resume-biography
