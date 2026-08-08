@@ -14,24 +14,21 @@ bio: >
   Avel Norr is an English-language, US-facing lifestyle creator. Follow the
   official channels below for new posts, stories, videos and updates.
 links:
+  - icon: brands/telegram
+    url: https://avelnorr.pages.dev/go/telegram-1to1
+    label: 1to1 Messages with me for free
   - icon: brands/instagram
-    url: https://www.instagram.com/avelnorr/
+    url: https://avelnorr.pages.dev/go/instagram
     label: Instagram
   - icon: brands/threads
-    url: https://www.threads.net/@avelnorr
+    url: https://avelnorr.pages.dev/go/threads
     label: Threads
   - icon: brands/x
-    url: https://x.com/avelnorr
+    url: https://avelnorr.pages.dev/go/x
     label: X
-  - icon: brands/youtube
-    url: https://www.youtube.com/@avelnorr
-    label: YouTube
-  - icon: brands/pinterest
-    url: https://www.pinterest.com/avelnorr/
-    label: Pinterest
   - icon: brands/telegram
-    url: https://t.me/avelnorr
-    label: Telegram
+    url: https://avelnorr.pages.dev/go/telegram-channel
+    label: Telegram channel
 interests: []
 education: []
 experience: []

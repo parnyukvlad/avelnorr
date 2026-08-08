@@ -21,22 +21,19 @@ sections:
   - block: cta-button-list
     content:
       buttons:
-        - text: '⭐ Follow Avel Norr — main channel'
+        - text: '1to1 Messages with me for free'
+          icon: brands/telegram
+          url: https://avelnorr.pages.dev/go/telegram-1to1
+        - text: 'Instagram'
           icon: brands/instagram
-          url: https://www.instagram.com/avelnorr/
+          url: https://avelnorr.pages.dev/go/instagram
         - text: 'Threads'
           icon: brands/threads
-          url: https://www.threads.net/@avelnorr
+          url: https://avelnorr.pages.dev/go/threads
         - text: 'X'
           icon: brands/x
-          url: https://x.com/avelnorr
-        - text: 'YouTube'
-          icon: brands/youtube
-          url: https://www.youtube.com/@avelnorr
-        - text: 'Pinterest'
-          icon: brands/pinterest
-          url: https://www.pinterest.com/avelnorr/
-        - text: 'Telegram'
+          url: https://avelnorr.pages.dev/go/x
+        - text: 'Telegram channel'
           icon: brands/telegram
-          url: https://t.me/avelnorr
+          url: https://avelnorr.pages.dev/go/telegram-channel
 ---
