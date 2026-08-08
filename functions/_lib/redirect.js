@@ -3,7 +3,7 @@ const DESTINATIONS = {
   instagram: 'https://www.instagram.com/avelnorr/',
   threads: 'https://www.threads.net/@avelnorr',
   x: 'https://x.com/avelnorr',
-  'telegram-channel': 'https://t.me/avelnorchannel',
+  'tg-channel': 'https://t.me/avelnorchannel',
 };
 
 const COUNTER_NAMESPACE = 'avelnorr-link-in-bio';

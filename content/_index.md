@@ -35,5 +35,5 @@ sections:
           url: https://avelnorr.pages.dev/go/x
         - text: 'Telegram channel'
           icon: brands/telegram
-          url: https://avelnorr.pages.dev/go/telegram-channel
+          url: https://avelnorr.pages.dev/go/tg-channel
 ---
