@@ -56,3 +56,11 @@
     display: none !important;
   }
 </style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    document
+      .querySelectorAll('[data-hbx="poweredby_brand"], [data-hbx="poweredby_cta"]')
+      .forEach((credit) => credit.closest('p')?.remove());
+  });
+</script>
