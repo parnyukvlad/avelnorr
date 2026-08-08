@@ -6,7 +6,7 @@ const DESTINATIONS = {
   'tg-channel': 'https://t.me/avelnorchannel',
 };
 
-const COUNTER_NAMESPACE = 'avelnorr-link-in-bio';
+const COUNTER_NAMESPACE = 'avelnorr-link-bio-live';
 
 export function redirectFor(context, link) {
   const target = DESTINATIONS[link];
