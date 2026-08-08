@@ -1,0 +1,42 @@
+---
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: 'Avel Norr ✦'
+  given: Avel
+  family: Norr
+  pronouns: ''
+status:
+  icon: '✦'
+role: 'Lifestyle creator'
+bio: >
+  Avel Norr is an English-language, US-facing lifestyle creator. Follow the
+  official channels below for new posts, stories, videos and updates.
+links:
+  - icon: brands/instagram
+    url: https://www.instagram.com/avelnorr/
+    label: Instagram
+  - icon: brands/threads
+    url: https://www.threads.net/@avelnorr
+    label: Threads
+  - icon: brands/x
+    url: https://x.com/avelnorr
+    label: X
+  - icon: brands/youtube
+    url: https://www.youtube.com/@avelnorr
+    label: YouTube
+  - icon: brands/pinterest
+    url: https://www.pinterest.com/avelnorr/
+    label: Pinterest
+  - icon: brands/telegram
+    url: https://t.me/avelnorr
+    label: Telegram
+interests: []
+education: []
+experience: []
+skills: []
+languages:
+  - name: English
+    level: 5
+awards: []
