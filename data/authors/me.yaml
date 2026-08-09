@@ -10,13 +10,10 @@ name:
 status:
   icon: '✦'
 role: 'Lifestyle creator'
-bio: >
-  Avel Norr is an English-language, US-facing lifestyle creator. Follow the
-  official channels below for new posts, stories, videos and updates.
 links:
   - icon: brands/telegram
     url: https://avelnorr.pages.dev/go/telegram-1to1
-    label: 1to1 Messages with me for free
+    label: Chat with me directly
   - icon: brands/instagram
     url: https://avelnorr.pages.dev/go/instagram
     label: Instagram

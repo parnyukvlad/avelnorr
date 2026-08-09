@@ -21,7 +21,7 @@ sections:
   - block: cta-button-list
     content:
       buttons:
-        - text: '1to1 Messages with me for free'
+        - text: 'Chat with me directly'
           icon: brands/telegram
           url: https://avelnorr.pages.dev/go/telegram-1to1
         - text: 'Instagram'

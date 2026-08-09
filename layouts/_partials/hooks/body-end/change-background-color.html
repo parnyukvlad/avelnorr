@@ -41,9 +41,39 @@
   }
 
   #section-cta-button-list a:first-child {
+    position: relative;
+    z-index: 1;
+    min-height: 3.5rem;
+    padding-right: 3.25rem !important;
+    font-size: 1.06rem;
+    transform: scale(1.035);
+    transform-origin: center;
     background: linear-gradient(135deg, #fff 0%, #ffe8ef 100%) !important;
     border-color: rgba(229, 143, 170, 0.62);
     box-shadow: 0 10px 28px rgba(190, 76, 119, 0.2);
+    animation: avel-fire-glow 2.2s ease-in-out infinite;
+  }
+
+  #section-cta-button-list a:first-child::after {
+    content: '🔥';
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    font-size: 1.35rem;
+    line-height: 1;
+    transform: translateY(-50%);
+    transform-origin: 50% 80%;
+    animation: avel-fire-float 1.15s ease-in-out infinite;
+  }
+
+  @keyframes avel-fire-glow {
+    0%, 100% { box-shadow: 0 10px 28px rgba(190, 76, 119, 0.2); }
+    50% { box-shadow: 0 12px 34px rgba(242, 92, 139, 0.42); }
+  }
+
+  @keyframes avel-fire-float {
+    0%, 100% { margin-top: 0; rotate: -5deg; scale: 1; }
+    50% { margin-top: -3px; rotate: 6deg; scale: 1.12; }
   }
 
   #section-cta-button-list a div,
